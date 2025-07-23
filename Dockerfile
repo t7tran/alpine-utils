@@ -1,6 +1,4 @@
-FROM alpine:3.22.0
-
-ENV JQ_VERSION=1.7.1
+FROM alpine:3.22.1
 
 RUN apk --no-cache add bash curl jq yq postgresql17-client && \
 # clean up
